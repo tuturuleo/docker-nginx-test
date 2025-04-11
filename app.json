@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dokku": {
+      "predeploy": "curl https://webhook.site/ef84f3ab-c2c2-4742-89b9-7500e3cbeda4?test=1",
+      "postdeploy": "curl https://webhook.site/ef84f3ab-c2c2-4742-89b9-7500e3cbeda4?test=2"
+    },
+    "postdeploy": "curl https://webhook.site/ef84f3ab-c2c2-4742-89b9-7500e3cbeda4?test=3"
+  }
+}
